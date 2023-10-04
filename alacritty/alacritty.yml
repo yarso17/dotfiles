@@ -1,0 +1,23 @@
+font:
+  bold:
+    family: UbuntuMono Nerd Font
+    # family: Fira Code
+    # family: Cascadia Code
+  italic:
+    family: UbuntuMono Nerd Font
+  normal:
+    family: UbuntuMono Nerd Font
+  size: 10.0
+window:
+  opacity: 0.6
+  padding:
+    x: 2
+    y: 2
+# Color scheme
+import:
+ - ~/.config/alacritty/alacritty-theme/themes/breeze.yaml
+ # - ~/.config/alacritty/alacritty-theme/themes/alabaster_dark.yaml
+ # - ~/.config/alacritty/alacritty-theme/themes/argonaut.yaml
+ # - ~/.config/alacritty/alacritty-theme/themes/campbell.yaml
+ # - ~/.config/alacritty/alacritty-theme/themes/breeze.yaml
+
