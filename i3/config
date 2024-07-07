@@ -24,7 +24,7 @@ client.placeholder      #0c0c0c #0c0c0c #ffffff #000000 #0c0c0c
 
 exec_always --no-startup-id /home/yarso/.config/polybar/launch.sh
 exec_always picom -b
-exec_always feh --bg-fill /home/yarso/Images/wallpapers/wp41.jpg
+exec_always feh --bg-fill /home/yarso/Images/wallpapers/wp28.jpg
 exec_always keymapper
 exec_always ESLINT_USE_FLAT_CONFIG=true eslint_d restart
 
