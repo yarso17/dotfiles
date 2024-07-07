@@ -38,4 +38,9 @@ packer.startup(function(use)
   use 'akinsho/flutter-tools.nvim'
   use 'lukas-reineke/indent-blankline.nvim'
   use 'HiPhish/nvim-ts-rainbow2'
+  use 'MunifTanjim/nui.nvim'
+  use 'rcarriga/nvim-notify'
+  use 'b0o/incline.nvim'
+  use 'nvim-tree/nvim-web-devicons'
+  use 'folke/noice.nvim'
 end)
