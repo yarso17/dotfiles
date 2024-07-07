@@ -1,0 +1,12 @@
+/*
+
+!.gitignore
+!i3
+!picom
+!polybar
+!dunst
+!alacritty
+!nvim
+!rofi
+
+alacritty/alacritty-theme

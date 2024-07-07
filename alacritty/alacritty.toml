@@ -1,0 +1,37 @@
+import = ["/home/yarso/.config/alacritty/alacritty-theme/themes/breeze.toml"] # from alacritty/alacritty-theme github repo
+#terminal_app
+#tokyo-night
+#tender
+#iterm
+#gotham
+#alabaster_dark
+#argonaut
+#campbell
+#breeze
+
+
+[font]
+size = 10.0
+
+[font.bold]
+family = "UbuntuMono Nerd Font"
+
+[font.italic]
+family = "UbuntuMono Nerd Font"
+
+[font.normal]
+family = "UbuntuMono Nerd Font"
+
+[window]
+opacity = 0.9
+
+[window.padding]
+x = 2
+y = 2
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[selection]
+save_to_clipboard = true
+
