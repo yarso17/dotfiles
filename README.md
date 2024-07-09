@@ -1,8 +1,8 @@
-![screenshot-1](./images/screenshot-1.png)
+![window-manager](./images/window-manager.jpg)
 
-![screenshot-2](./images/screenshot-2.jpg)
+![app-launcher_and_notifications](./images/app-launcher_and_notifications.png)
 
-![screenshot-3](./images/screenshot-3.jpg)
+![code-editor](./images/code-editor.png)
 
 # Yarso's dotfiles
 
