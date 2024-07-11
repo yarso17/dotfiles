@@ -19,7 +19,9 @@ packer.startup(function(use)
   use 'neovim/nvim-lspconfig'          -- LSP
   use 'nvimdev/lspsaga.nvim'           -- LSP UIs
   use 'L3MON4D3/LuaSnip'
-  use 'nvimtools/none-ls.nvim'         -- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
+  use 'saadparwaiz1/cmp_luasnip'
+  use 'rafamadriz/friendly-snippets'
+  use 'nvimtools/none-ls.nvim' -- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
   use "nvimtools/none-ls-extras.nvim"
   use {
     'nvim-treesitter/nvim-treesitter',

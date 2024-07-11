@@ -96,7 +96,63 @@ nvim_lsp.tsserver.setup {
   capabilities = capabilities
 }
 
+nvim_lsp.eslint.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
+}
+
 nvim_lsp.dartls.setup {
   on_attach = on_attach,
   capabilities = capabilities
 }
+
+nvim_lsp.html.setup {
+  on_attach = on_attach,
+  filetypes = { "html" },
+  capabilities = capabilities
+}
+
+nvim_lsp.emmet_language_server.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
+}
+
+nvim_lsp.cssls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
+}
+
+-- vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
+--   vim.lsp.diagnostic.on_publish_diagnostics, {
+--     underline = true,
+--     update_in_insert = false,
+--     virtual_text = {
+--       spacing = 4,
+--       prefix = "\u{ea71}"
+--     },
+--     severity_sort = true,
+--   }
+-- )
+
+-- Diagnostic symbols in the sign column (gutter)
+local signs = { Error = " ", Warn = " ", Hint = " ", Info = " " }
+for type, icon in pairs(signs) do
+  local hl = "DiagnosticSign" .. type
+  vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
+end
+
+vim.diagnostic.config({
+  virtual_text = {
+    format = function(diagnostic)
+      return string.format('[%s]: %s', diagnostic.source, diagnostic.message)
+    end,
+    prefix = '●'
+  },
+  update_in_insert = true,
+  float = {
+    format = function(diagnostic)
+      return string.format('%s\n%s: %s', diagnostic.message, diagnostic.source, diagnostic.code)
+    end,
+    source = true, -- Or "if_many"
+  },
+})
