@@ -13,6 +13,7 @@ import = ["/home/yarso/.config/alacritty/alacritty-theme/themes/breeze.toml"] # 
 [font]
 size = 10.0
 
+# Fire Code
 [font.bold]
 family = "UbuntuMono Nerd Font"
 

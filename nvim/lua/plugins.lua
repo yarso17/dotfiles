@@ -11,6 +11,7 @@ packer.startup(function(use)
   use 'nvim-lua/plenary.nvim'          -- Common utilities
   use 'craftzdog/solarized-osaka.nvim' -- Theme 1
   use 'olimorris/onedarkpro.nvim'      -- Theme 2
+  use 'navarasu/onedark.nvim'          -- Theme 3
   use 'hoob3rt/lualine.nvim'           -- Statusline
   use 'onsails/lspkind-nvim'           -- vscode-like pictograms
   use 'hrsh7th/cmp-buffer'             -- nvim-cmp source for buffer words

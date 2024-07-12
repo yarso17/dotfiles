@@ -54,7 +54,3 @@ end
 
 -- Sync yank with system
 vim.opt.clipboard:append { 'unnamedplus' }
-
--- Theme
-vim.cmd("colorscheme solarized-osaka")
--- vim.cmd("colorscheme onedark_vivid")
