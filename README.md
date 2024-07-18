@@ -1,8 +1,8 @@
-![window-manager](./images/window-manager.jpg)
+![code-editor](./images/vim.png)
 
-![app-launcher_and_notifications](./images/app-launcher_and_notifications.png)
+![window-manager](./images/i3.jpg)
 
-![code-editor](./images/code-editor.png)
+![app-launcher_and_notifications](./images/rofi_and_dunst.png)
 
 # Yarso's dotfiles
 
