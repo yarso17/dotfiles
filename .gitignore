@@ -10,5 +10,8 @@
 !rofi
 !images
 !README.md
+!kitty
+!tmux
 
 alacritty/alacritty-theme
+tmux/plugins/*

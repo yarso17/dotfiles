@@ -17,3 +17,4 @@
 - alacritty _(terminal emulator)_
 - rofi _(dmenu replacement) (based on [adi1090x rofi repo](https://github.com/adi1090x/rofi))_
 - vim _(Neovim) (text editor) (based on [takuya-san](https://github.com/craftzdog) old setup)_
+- tmux _(terminal multiplexer) (using [TPM](https://github.com/tmux-plugins/tpm) as package manager for tmux)_

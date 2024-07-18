@@ -69,3 +69,9 @@ keymap.set('i', 'jk', "<C-c>")
 keymap.set('i', 'kj', "<C-c>")
 keymap.set('i', 'jj', "<C-c>")
 keymap.set('i', 'kk', "<C-c>")
+
+-- Tmux
+keymap.set('n', '<C-h>', '<cmd> TmuxNavigateLeft<CR>')
+keymap.set('n', '<C-l>', '<cmd> TmuxNavigateRight<CR>')
+keymap.set('n', '<C-j>', '<cmd> TmuxNavigateDown<CR>')
+keymap.set('n', '<C-k>', '<cmd> TmuxNavigateUp<CR>')

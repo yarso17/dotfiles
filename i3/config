@@ -44,7 +44,7 @@ floating_modifier $mod
 
 tiling_drag modifier titlebar
 
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 bindsym $mod+q kill
 bindsym $mod+d exec --no-startup-id /home/yarso/.config/rofi/launcher.sh
 bindsym $mod+p move workspace to output right

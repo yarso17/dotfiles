@@ -46,4 +46,5 @@ packer.startup(function(use)
   use 'b0o/incline.nvim'
   use 'nvim-tree/nvim-web-devicons'
   use 'folke/noice.nvim'
+  use 'christoomey/vim-tmux-navigator'
 end)
