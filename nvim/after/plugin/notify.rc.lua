@@ -21,4 +21,4 @@ notify.setup({
 
 vim.notify = notify
 
-vim.notify("Notify is ready")
+-- vim.notify("Notify is ready")
