@@ -1,6 +1,6 @@
 ![vim](./images/vim.png)
 
-![hyprland](./images/hyprland.jpg)
+![hyprland](./images/hyprland.png)
 
 ![waybar-wofi-dunst](./images/waybar_wofi_and_dunst.png)
 
