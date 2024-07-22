@@ -1,0 +1,59 @@
+{
+    "spacing": 8,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-right": ["tray", "pulseaudio", "battery", "clock"],
+     "hyprland/workspaces": {
+         "disable-scroll": true,
+         "all-outputs": true,
+         "format": "{icon}",
+         "format-icons": {
+             "1": "􀎬",
+             "2": "􀡅",
+             "3": "􀤚",
+             "4": "􀩼",
+             "5": "5",
+             "6": "6",
+             "7": "7",
+             "8": "8",
+             "9": "9",
+             "10": "􀡓",
+            "urgent": "",
+             "focused": "",
+             "default": ""
+         }
+     },
+    "tray": {
+        "icon-size": 14,
+        "spacing": 12
+    },
+    "clock": {
+        "format": "{:%m/%d   %H:%M} ",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    },
+    "battery": {
+        "bat": "BAT1",
+        "states": {
+            "warning": 25,
+            "critical": 10
+        },
+        "format-charging": "Charging  {icon}",
+        "format-discharging": "Discharging  {icon}",
+        "format-full": "Fully charged",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip-format": "{timeTo} ({capacity}%)"
+    },
+    "pulseaudio": {
+        "scroll-step": 5, // %, can be a float
+        "format": "{icon}",
+        "format-bluetooth": " {icon} {format_source}",
+        "format-bluetooth-muted": "  {icon} {format_source}",
+        "format-muted": "  {format_source}",
+        "format-icons": {
+            "headphone": "",
+            "headset": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol",
+        "on-click-right": "foot -a pw-top pw-top"
+    },
+}

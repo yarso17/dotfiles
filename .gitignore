@@ -12,6 +12,10 @@
 !README.md
 !kitty
 !tmux
+!hypr
+!wofi
+!waybar
+!wlogout
 
 alacritty/alacritty-theme
 tmux/plugins/*
