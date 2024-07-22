@@ -1,8 +1,8 @@
-<!--![code-editor](./images/vim.png)-->
+![vim](./images/vim.png)
 
-<!--![window-manager](./images/i3.jpg)-->
+![hyprland](./images/hyprland.jpg)
 
-<!--![app-launcher_and_notifications](./images/rofi_and_dunst.png)-->
+![waybar-wofi-dunst](./images/waybar_wofi_and_dunst.png)
 
 # Yarso's dotfiles
 
