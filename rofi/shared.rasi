@@ -1,5 +1,0 @@
-@import "/home/yarso/.config/rofi/colors.rasi"
-
-* {
-    font: "SF Pro Text 11";
-}

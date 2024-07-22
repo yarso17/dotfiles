@@ -1,21 +1,21 @@
 /*
 
 !.gitignore
-!i3
-!picom
-!polybar
+!hypr
+!waybar
 !dunst
-!alacritty
+!wofi
+!tmux
+!kitty
 !nvim
-!rofi
+!wlogout
 !images
 !README.md
-!kitty
-!tmux
-!hypr
-!wofi
-!waybar
-!wlogout
 
-alacritty/alacritty-theme
+!alacritty
+!polybar
+!i3
+!rofi
+!picom
+
 tmux/plugins/*

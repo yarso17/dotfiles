@@ -1,8 +1,8 @@
-![code-editor](./images/vim.png)
+<!--![code-editor](./images/vim.png)-->
 
-![window-manager](./images/i3.jpg)
+<!--![window-manager](./images/i3.jpg)-->
 
-![app-launcher_and_notifications](./images/rofi_and_dunst.png)
+<!--![app-launcher_and_notifications](./images/rofi_and_dunst.png)-->
 
 # Yarso's dotfiles
 
@@ -10,11 +10,14 @@
 
 ## Contents
 
-- i3 _(window manager)_
-- picom _(compositor for X11) (based on [ricmurphyxyz old setup](https://github.com/ericmurphyxyz/dotfiles/blob/xorg/.config/picom/picom.conf))_
-- polybar _(status bar) (based on [ghifarit53 setup](https://gist.github.com/ghifarit53/29125cd6099eaea2eb1a1311a4ea2df8))_
+- hyprland _(window manager)_
+- waybar _(status bar) (based on my old polybar configuration, take a look [here](https://github.com/yarso17/dotfiles/tree/b15e0a7b570f21eadcd10224a8fba1920c863635))_
 - dunst _(notification-daemon)_
-- alacritty _(terminal emulator)_
-- rofi _(dmenu replacement) (based on [adi1090x rofi repo](https://github.com/adi1090x/rofi))_
+- kitty _(terminal emulator)_
+- wofi _(program launcher)_
 - vim _(Neovim) (text editor) (based on [takuya-san](https://github.com/craftzdog) old setup)_
 - tmux _(terminal multiplexer) (using [TPM](https://github.com/tmux-plugins/tpm) as package manager for tmux)_
+
+### nwg-look to set gtk theme
+
+I take my gtk theme from [Vince](https://github.com/vinceliuice)
