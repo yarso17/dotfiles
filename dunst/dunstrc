@@ -15,7 +15,7 @@
     horizontal_padding = 15
     text_icon_padding = 15
     frame_width = 0
-    frame_color = "#21212170"
+    frame_color = "#212121"
     separator_color = frame
     sort = yes
     idle_threshold = 120
@@ -50,23 +50,23 @@
     corner_radius = 10
     progress_bar_corner_radius = 10
     origin = bottom-center
-    transparency = 0
+    transparency = 40
 
 [experimental]
     per_monitor_dpi = false
 
 [urgency_low]
-    background = "#21212170"
+    background = "#21212199"
     foreground = "#CDD6F4"
     timeout = 10
 
 [urgency_normal]
-    background = "#21212170"
+    background = "#21212199"
     foreground = "#CDD6F4"
     timeout = 10
 
 [urgency_critical]
-    background = "#18182570"
+    background = "#18182599"
     foreground = "#F38BA8"
     frame_color = "#F38BA8"
     timeout = -1

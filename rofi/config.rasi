@@ -341,3 +341,4 @@ error-message {
     background-color:            @background-colour;
     text-color:                  @foreground-colour;
 }
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"

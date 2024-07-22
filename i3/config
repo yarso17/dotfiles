@@ -27,6 +27,7 @@ exec_always picom -b
 exec_always feh --bg-fill /home/yarso/Images/wallpapers/wp28.jpg
 exec_always keymapper
 exec_always ESLINT_USE_FLAT_CONFIG=true eslint_d restart
+exec_always dunst
 
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id dex --autostart --environment i3
