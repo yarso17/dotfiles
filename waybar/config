@@ -36,8 +36,8 @@
             "warning": 25,
             "critical": 10
         },
-        "format-charging": "Charging  {icon}",
-        "format-discharging": "Discharging  {icon}",
+        "format-charging": "Charging  {icon} ",
+        "format-discharging": "Discharging  {icon} ",
         "format-full": "Fully charged",
         "format-icons": ["", "", "", "", ""],
         "tooltip-format": "{timeTo} ({capacity}%)"

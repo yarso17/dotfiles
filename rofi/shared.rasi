@@ -1,0 +1,9 @@
+* {
+    background:     #212121;
+    selected:       #292d2e;
+    background-alt: #1D1D1D;
+    foreground:     #FFFFFFFF;
+    active:         #50FA7BFF;
+    urgent:         #FF5555FF;
+    font: "SF Pro Text 9";
+}

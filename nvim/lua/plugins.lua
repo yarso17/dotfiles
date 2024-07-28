@@ -51,4 +51,6 @@ packer.startup(function(use)
   -- Image preview
   use 'nvim-lua/popup.nvim'
   use 'nvim-telescope/telescope-media-files.nvim'
+  -- Rust
+  use 'rust-lang/rust.vim'
 end)
