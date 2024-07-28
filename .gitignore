@@ -4,18 +4,11 @@
 !hypr
 !waybar
 !dunst
-!wofi
+!rofi
 !tmux
 !kitty
 !nvim
-!wlogout
 !images
 !README.md
-
-!alacritty
-!polybar
-!i3
-!rofi
-!picom
 
 tmux/plugins/*
