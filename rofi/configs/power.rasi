@@ -18,7 +18,7 @@ window {
     enabled:                     true;
     margin:                      0px;
     padding:                     0px;
-    border:                      2px solid;
+    border:                      0px solid;
     border-radius:               0px;
     border-color:                @background; /**selected**/
     cursor:                      "default";
@@ -112,6 +112,7 @@ element-text {
 }
 
 element selected.normal {
-    background-color:            var(selected);
+    /*background-color:            var(selected);*/
+    background-color:            var(background);
     text-color:                  inherit;
 }

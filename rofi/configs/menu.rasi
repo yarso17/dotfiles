@@ -61,7 +61,7 @@ window {
     enabled:                     true;
     margin:                      0px;
     padding:                     15px;
-    border:                      2px solid;
+    border:                      0px solid;
     border-radius:               10px;
     border-color:                @background; /**selected**/
     cursor:                      "default";
@@ -93,7 +93,8 @@ mainbox {
 /*****----- A Custom Box -----*****/
 custombox {
     spacing:                     @box-spacing;
-    background-color:            @background-colour;
+    /*background-color:            @background-colour;*/
+    background-color:            transparent;
     text-color:                  @foreground-colour;
     orientation:                 horizontal;
     children:                    [ "mode-switcher", "listview" ];
@@ -128,7 +129,8 @@ textbox-prompt-colon {
     border:                      0px solid;
     border-radius:               @element-radius;
     border-color:                @border-colour;
-    background-color:            @alternate-background;
+    /*background-color:            @alternate-background;*/
+    background-color:            @background;
     text-color:                  @foreground-colour;
 }
 
@@ -176,8 +178,8 @@ case-indicator {
 
 listview {
     enabled:                     true;
-    columns:                     1;
-    lines:                       12;
+    columns:                     2;
+    lines:                       4;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   true;
@@ -191,14 +193,16 @@ listview {
     padding:                     0px;
     border:                      0px solid;
     border-radius:               0px;
-    border-color:                @border-colour;
+    border-color:                transparent;
     background-color:            transparent;
     text-color:                  @foreground-colour;
     cursor:                      "default";
 }
+
 scrollbar {
     handle-width:                8px ;
-    handle-color:                @handle-colour;
+    /*handle-color:                @handle-colour;*/
+    handle-color:                @background;
     border-radius:               @element-radius;
     background-color:            @alternate-background;
 }
@@ -211,25 +215,29 @@ element {
     padding:                     @list-padding;
     border:                      0px solid;
     border-radius:               @element-radius;
-    border-color:                @border-colour;
+    border-color:                transparent;
     background-color:            transparent;
     text-color:                  @foreground-colour;
     cursor:                      pointer;
 }
 element normal.normal {
-    background-color:            var(normal-background);
+    background-color:            transparent;
+    /*background-color:            var(normal-background);*/
     text-color:                  var(normal-foreground);
 }
 element normal.urgent {
-    background-color:            var(urgent-background);
+    background-color:            transparent;
+    /*background-color:            var(urgent-background);*/
     text-color:                  var(urgent-foreground);
 }
 element normal.active {
-    background-color:            var(active-background);
+    background-color:            transparent;
+    /*background-color:            var(active-background);*/
     text-color:                  var(active-foreground);
 }
 element selected.normal {
-    background-color:            var(selected-normal-background);
+    background-color:            var(background);
+    /*background-color:            var(selected-normal-background);*/
     text-color:                  var(selected-normal-foreground);
 }
 element selected.urgent {
@@ -241,7 +249,8 @@ element selected.active {
     text-color:                  var(selected-active-foreground);
 }
 element alternate.normal {
-    background-color:            var(alternate-normal-background);
+    background-color:            transparent;
+    /*background-color:            var(alternate-normal-background);*/
     text-color:                  var(alternate-normal-foreground);
 }
 element alternate.urgent {
@@ -255,7 +264,7 @@ element alternate.active {
 element-icon {
     background-color:            transparent;
     text-color:                  inherit;
-    size:                        32px;
+    size:                        28px;
     cursor:                      inherit;
 }
 element-text {
