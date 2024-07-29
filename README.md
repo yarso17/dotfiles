@@ -1,8 +1,8 @@
-<!--![vim](./images/vim.png)-->
-<!---->
-<!--![hyprland](./images/hyprland.png)-->
-<!---->
-<!--![rofi](./images/rofi.png)-->
+![nvim](./images/nvim.png)
+
+![hyprland](./images/hyprland.png)
+
+![rofi](./images/rofi.png)
 
 # Yarso's dotfiles
 
