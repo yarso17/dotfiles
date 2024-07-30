@@ -1,11 +1,7 @@
 #!/usr/bin/env bash
 
-dir="/home/yarso/.config/rofi/configs/power"
-
-# CMDs
+CONFIG_DIR="/home/yarso/.config/rofi/configs/power.rasi"
 host=`hostname`
-
-# Options
 shutdown=' Shutdown'
 reboot=' Reboot'
 lock=' Lock'
@@ -14,14 +10,12 @@ logout=' Logout'
 yes=' Yes'
 no=' No'
 
-# Rofi CMD
 rofi_cmd() {
 	rofi -dmenu \
 		-p "$host" \
-		-theme ${dir}.rasi
+		-theme $CONFIG_DIR
 }
 
-# Confirmation CMD
 confirm_cmd() {
 	rofi -theme-str 'window {location: center; anchor: center; x-offset: 2%; y-offset: -1%; fullscreen: false; width: 250px;}' \
 		-theme-str 'mainbox {children: [ "message", "listview" ];}' \
@@ -31,21 +25,17 @@ confirm_cmd() {
 		-dmenu \
 		-p 'Confirmation' \
 		-mesg 'Are you Sure?' \
-		-theme ${dir}.rasi
+		-theme $CONFIG_DIR
 }
 
-# Ask for confirmation
 confirm_exit() {
 	echo -e "$yes\n$no" | confirm_cmd
 }
 
-# Pass variables to rofi dmenu
 run_rofi() {
-	# echo -e "$lock\n$suspend\n$logout\n$reboot\n$shutdown" | rofi_cmd
 	echo -e "$suspend\n$logout\n$reboot\n$shutdown" | rofi_cmd
 }
 
-# Execute Command
 run_cmd() {
 	selected="$(confirm_exit)"
 	if [[ "$selected" == "$yes" ]]; then
@@ -65,7 +55,6 @@ run_cmd() {
 	fi
 }
 
-# Actions
 chosen="$(run_rofi)"
 case ${chosen} in
     $shutdown)
