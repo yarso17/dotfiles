@@ -33,6 +33,6 @@ case ${chosen} in
     nautilus
         ;;
     $SCREENSHOT)
-    hyprshot -m output -o /home/yarso/Images/screenshots
+    $SCRIPTS_DIR/screenshot.sh
         ;;
 esac
