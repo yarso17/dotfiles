@@ -39,8 +39,8 @@ packer.startup(function(use)
   use 'williamboman/mason-lspconfig.nvim'
   use 'github/copilot.vim'
   use 'akinsho/flutter-tools.nvim'
-  use 'lukas-reineke/indent-blankline.nvim'
-  use 'HiPhish/nvim-ts-rainbow2'
+  use 'lukas-reineke/indent-blankline.nvim' -- Indent lines
+  use 'HiPhish/rainbow-delimiters.nvim'     -- Rainbow delimiters
   use 'MunifTanjim/nui.nvim'
   use 'rcarriga/nvim-notify'
   use 'b0o/incline.nvim'
