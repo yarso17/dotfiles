@@ -90,7 +90,7 @@ nvim_lsp.lua_ls.setup {
   },
 }
 
-nvim_lsp.tsserver.setup {
+nvim_lsp.ts_ls.setup {
   on_attach = on_attach,
   cmd = { "typescript-language-server", "--stdio" },
   capabilities = capabilities
@@ -133,6 +133,11 @@ nvim_lsp.rust_analyzer.setup {
 }
 
 nvim_lsp.svelte.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
+}
+
+nvim_lsp.astro.setup {
   on_attach = on_attach,
   capabilities = capabilities
 }
