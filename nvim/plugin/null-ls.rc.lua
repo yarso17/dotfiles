@@ -7,7 +7,7 @@ end
 local sources = {
   null_ls.builtins.formatting.dart_format,
   null_ls.builtins.formatting.prettierd.with({
-    filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "css", "scss", "less", "html", "json", "jsonc", "yaml", "markdown", "markdown.mdx", "graphql", "handlebars", "svelte" },
+    filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "css", "scss", "less", "html", "json", "jsonc", "yaml", "markdown", "markdown.mdx", "graphql", "handlebars", "svelte", "astro" },
     env = {
       PRETTIERD_DEFAULT_CONFIG = vim.fn.expand("/home/yarso/.config/nvim/utils/.prettierrc.json"),
     },

@@ -7,9 +7,10 @@ WALLPAPER="􀣵 Wallpaper"
 CHARS="􀙬 Chars"
 FILE_EXPLORER="􀈖 Files"
 SCREENSHOT="􀌟 Screenshot"
+SCREENSHOT_REGION="􀌟 Screenshot region"
 MOVE_TO_MAIN_MONITOR="􀈉 Move to Main"
 MOVE_TO_SECONDARY_MONITOR="􀈉 Move to Secondary"
-OPTIONS="$WIFI\n$WALLPAPER\n$CHARS\n$FILE_EXPLORER\n$SCREENSHOT\n$MOVE_TO_MAIN_MONITOR\n$MOVE_TO_SECONDARY_MONITOR"
+OPTIONS="$WIFI\n$WALLPAPER\n$CHARS\n$FILE_EXPLORER\n$SCREENSHOT\n$SCREENSHOT_REGION\n$MOVE_TO_MAIN_MONITOR\n$MOVE_TO_SECONDARY_MONITOR"
 
 rofi_cmd() {
 	rofi -dmenu \
@@ -36,6 +37,9 @@ case ${chosen} in
         ;;
     $SCREENSHOT)
     $SCRIPTS_DIR/screenshot.sh
+        ;;
+    $SCREENSHOT_REGION)
+    $SCRIPTS_DIR/screenshot_region.sh
         ;;
     $MOVE_TO_MAIN_MONITOR)
     hyprctl dispatch movecurrentworkspacetomonitor eDP-1
